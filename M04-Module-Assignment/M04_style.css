@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #3c332a;
+  text-align: center;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(images/naruto_vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#content {
+  overflow: auto;
+}
+
+
+#nav {}
+
+#feature,
+#footer {
+  margin: 1%;
+}
+
+.column1,
+.column2,
+.column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.column3 {
+  margin-right: 0%;
+
+}
+
+.article.column1 {
+  background-color: skyblue;
+  background-image: none;
+}
+
+.article.column2 {
+  background-color: orange;
+  background-image: none;
+}
+
+.article.column3 {
+  background-color: #53b9e4;
+  background-image: none;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav,
+#footer {
+  
+  padding: 0.5em 0;
+}
+
+#feature,
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: yellow;
+
+}
+
+#feature {
+  background-image: url(images/shippuden_vector.webp);
+  background-size: 44%;
+  background-position: center;
+  
+
+}
+
+p,
+h1 {
+  font-family: 'VenrynSansRegular';
+  font-weight: normal;
+  font-style: normal;
+}
+#header{
+  background-color: tan;
+}
+
+#footer{
+  background-color: #a68b68;
+}
